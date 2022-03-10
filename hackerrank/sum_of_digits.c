@@ -5,7 +5,7 @@
 // main function
 int main(){
 
-    int num,sum;
+    int num=0,sum=0;
     printf("Please Enter a five digit number: ");
     scanf("%d",&num);
     while(num>0){
