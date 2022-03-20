@@ -24,10 +24,11 @@ int main(){
     // declaring two variables for the number itself and it's digit sum
     int take_number=0,sum=0;
     // taking number from the user
+    printf("Please Enter the number: ");
     scanf("%d",&take_number);
     sum=sum_of_digits(take_number);
     // finally printing the sum on terminal
-    printf("%d\n",sum);
+    printf("Sum of digits of above number is : %d\n",sum);
     // exiting the main program
     return 0;
 }
